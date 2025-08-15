@@ -3,17 +3,10 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  publicDir: "public",
   build: {
-    outDir: "dist",
-    sourcemap: true,
-    // lib: {
-    //   entry: "src/main.tsx",
-    //   fileName: "main",
-    //   name: "MyLibrary",
-    // },
+    outDir: "build",
   },
-  base: "/elenora-green-coaching",
+  base: "/elenora-green-coaching/",
   plugins: [react()],
   optimizeDeps: {
     exclude: ["lucide-react"],
