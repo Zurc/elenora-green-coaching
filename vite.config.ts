@@ -5,6 +5,10 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: "/elenora-green-coaching/",
   publicDir: "public",
+  build: {
+    outDir: "dist",
+    sourcemap: true,
+  },
   plugins: [react()],
   optimizeDeps: {
     exclude: ["lucide-react"],

@@ -1,8 +1,6 @@
 import React from "react";
 import {
-  User,
   Star,
-  Calendar,
   Mail,
   Phone,
   MapPin,
@@ -11,7 +9,6 @@ import {
   Heart,
   Target,
 } from "lucide-react";
-// import coachingImage from "./coaching.png";
 
 function App() {
   return (
