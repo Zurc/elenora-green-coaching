@@ -106,7 +106,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <img
-                src="{process.env.PUBLIC_URL + '/coaching.png'}"
+                src="{`${process.env.PUBLIC_URL}/coaching.png`}"
                 alt="Coaching image"
                 className="rounded-2xl shadow-xl"
               />
