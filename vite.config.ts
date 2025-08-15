@@ -13,7 +13,7 @@ export default defineConfig({
     //   name: "MyLibrary",
     // },
   },
-  base: "/",
+  base: "/elenora-green-coaching",
   plugins: [react()],
   optimizeDeps: {
     exclude: ["lucide-react"],
