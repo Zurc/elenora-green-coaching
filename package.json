@@ -1,11 +1,13 @@
 {
   "name": "vite-react-typescript-starter",
+  "homepage": "https://zurc.github.io/elenora-green-coaching",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
