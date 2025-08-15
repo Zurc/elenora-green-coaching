@@ -7,11 +7,11 @@ export default defineConfig({
   build: {
     outDir: "dist",
     sourcemap: true,
-    lib: {
-      entry: "src/main.tsx",
-      fileName: "main",
-      name: "MyLibrary",
-    },
+    // lib: {
+    //   entry: "src/main.tsx",
+    //   fileName: "main",
+    //   name: "MyLibrary",
+    // },
   },
   base: "/",
   plugins: [react()],
